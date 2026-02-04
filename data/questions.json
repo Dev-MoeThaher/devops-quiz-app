@@ -1,0 +1,12 @@
+{
+    "questions": [
+      {
+        "topic": "Git",
+        "question": "What does Git use to identify commits?",
+        "options": ["File names", "Timestamps", "Hashes", "Branch names"],
+        "answer": "Hashes",
+        "explanation": "Git uses SHA-1 hashes to uniquely identify commits."
+      }
+    ]
+  }
+  
