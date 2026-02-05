@@ -1,12 +1,265 @@
-{
-    "questions": [
-      {
-        "topic": "Git",
-        "question": "What does Git use to identify commits?",
-        "options": ["File names", "Timestamps", "Hashes", "Branch names"],
-        "answer": "Hashes",
-        "explanation": "Git uses SHA-1 hashes to uniquely identify commits."
-      }
-    ]
+[
+  {
+    "id": "Q1",
+    "topic": "Continuous Integration",
+    "question": "What is the primary goal of Continuous Integration?",
+    "options": [
+      "Automatically deploy to production",
+      "Frequently integrate code changes into a shared repository",
+      "Eliminate the need for testing",
+      "Remove the need for branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Integration focuses on integrating code frequently to detect issues early."
+  },
+  {
+    "id": "Q2",
+    "topic": "Continuous Integration",
+    "question": "How often should developers commit code in a CI environment?",
+    "options": [
+      "Once per sprint",
+      "Once per month",
+      "Frequently, ideally daily",
+      "Only before releases"
+    ],
+    "answerIndex": 2,
+    "explanation": "Frequent commits help detect integration issues early."
+  },
+  {
+    "id": "Q3",
+    "topic": "Continuous Integration",
+    "question": "Which tool is commonly used for CI?",
+    "options": [
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "Ansible"
+    ],
+    "answerIndex": 0,
+    "explanation": "Jenkins is a popular Continuous Integration tool."
+  },
+  {
+    "id": "Q4",
+    "topic": "Continuous Integration",
+    "question": "What usually triggers a CI pipeline?",
+    "options": [
+      "Manual approval",
+      "Code commit or pull request",
+      "Server reboot",
+      "Production failure"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI pipelines are triggered by code changes."
+  },
+  {
+    "id": "Q5",
+    "topic": "Continuous Integration",
+    "question": "What is a common practice in CI pipelines?",
+    "options": [
+      "Skipping tests",
+      "Automated testing",
+      "Manual builds",
+      "Avoiding version control"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated testing ensures new changes do not break existing functionality."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control",
+    "question": "What is the main purpose of a version control system?",
+    "options": [
+      "Store backups only",
+      "Track and manage code changes",
+      "Deploy applications",
+      "Monitor servers"
+    ],
+    "answerIndex": 1,
+    "explanation": "Version control systems track changes and enable collaboration."
+  },
+  {
+    "id": "Q7",
+    "topic": "Version Control",
+    "question": "Which system is a distributed version control system?",
+    "options": [
+      "SVN",
+      "CVS",
+      "Git",
+      "FTP"
+    ],
+    "answerIndex": 2,
+    "explanation": "Git is a distributed version control system."
+  },
+  {
+    "id": "Q8",
+    "topic": "Version Control",
+    "question": "What does a Git commit represent?",
+    "options": [
+      "A backup of the entire system",
+      "A snapshot of changes",
+      "A merged branch",
+      "A deleted repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "Each commit represents a snapshot of the project at a point in time."
+  },
+  {
+    "id": "Q9",
+    "topic": "Version Control",
+    "question": "Why are branches used in Git?",
+    "options": [
+      "To delete code safely",
+      "To work on features independently",
+      "To slow down development",
+      "To avoid testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Branches allow parallel development without affecting main code."
+  },
+  {
+    "id": "Q10",
+    "topic": "Version Control",
+    "question": "What is a Pull Request?",
+    "options": [
+      "A request to delete code",
+      "A request to merge changes",
+      "A Git command",
+      "A server backup"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull Requests are used to review and merge changes."
+  },
+  {
+    "id": "Q11",
+    "topic": "DevOps Culture",
+    "question": "What is a key principle of DevOps culture?",
+    "options": [
+      "Strict separation of teams",
+      "Collaboration between development and operations",
+      "Avoiding automation",
+      "Manual deployments"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps emphasizes collaboration across teams."
+  },
+  {
+    "id": "Q12",
+    "topic": "DevOps Culture",
+    "question": "Which value is emphasized in DevOps?",
+    "options": [
+      "Blame",
+      "Transparency",
+      "Isolation",
+      "Manual approval"
+    ],
+    "answerIndex": 1,
+    "explanation": "Transparency improves trust and collaboration."
+  },
+  {
+    "id": "Q13",
+    "topic": "DevOps Culture",
+    "question": "Why is feedback important in DevOps?",
+    "options": [
+      "To delay releases",
+      "To improve processes continuously",
+      "To avoid automation",
+      "To replace testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Feedback helps teams improve continuously."
+  },
+  {
+    "id": "Q14",
+    "topic": "DevOps Culture",
+    "question": "What does shared responsibility mean?",
+    "options": [
+      "Only ops handle failures",
+      "Only devs write code",
+      "Everyone owns quality and reliability",
+      "Management handles issues"
+    ],
+    "answerIndex": 2,
+    "explanation": "Shared responsibility is core to DevOps culture."
+  },
+  {
+    "id": "Q15",
+    "topic": "DevOps Culture",
+    "question": "Which practice supports DevOps culture?",
+    "options": [
+      "Siloed teams",
+      "Continuous improvement",
+      "Manual testing only",
+      "Delayed feedback"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous improvement aligns with DevOps principles."
+  },
+  {
+    "id": "Q16",
+    "topic": "Continuous Delivery",
+    "question": "What is Continuous Delivery?",
+    "options": [
+      "Manual release process",
+      "Keeping software ready for release",
+      "Automatic deployment to production",
+      "Avoiding testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery ensures software can be released at any time."
+  },
+  {
+    "id": "Q17",
+    "topic": "Continuous Deployment",
+    "question": "How is Continuous Deployment different from Delivery?",
+    "options": [
+      "It requires manual approval",
+      "It automatically deploys every change",
+      "It avoids automation",
+      "It skips testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys changes."
+  },
+  {
+    "id": "Q18",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code?",
+    "options": [
+      "Manual server setup",
+      "Managing infrastructure using code",
+      "A monitoring tool",
+      "A testing framework"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC uses code to manage infrastructure."
+  },
+  {
+    "id": "Q19",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool supports Infrastructure as Code?",
+    "options": [
+      "Terraform",
+      "GitHub",
+      "Jenkins",
+      "Docker Hub"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is a popular IaC tool."
+  },
+  {
+    "id": "Q20",
+    "topic": "Continuous Delivery",
+    "question": "What is a benefit of Continuous Delivery?",
+    "options": [
+      "Slower releases",
+      "Higher deployment risk",
+      "Faster and reliable releases",
+      "Manual testing only"
+    ],
+    "answerIndex": 2,
+    "explanation": "Continuous Delivery improves release speed and reliability."
   }
-  
+
+
+
+]
