@@ -63,5 +63,71 @@
     ],
     "answerIndex": 1,
     "explanation": "Automated testing ensures new changes do not break existing functionality."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control",
+    "question": "What is the main purpose of a version control system?",
+    "options": [
+      "Store backups only",
+      "Track and manage code changes",
+      "Deploy applications",
+      "Monitor servers"
+    ],
+    "answerIndex": 1,
+    "explanation": "Version control systems track changes and enable collaboration."
+  },
+  {
+    "id": "Q7",
+    "topic": "Version Control",
+    "question": "Which system is a distributed version control system?",
+    "options": [
+      "SVN",
+      "CVS",
+      "Git",
+      "FTP"
+    ],
+    "answerIndex": 2,
+    "explanation": "Git is a distributed version control system."
+  },
+  {
+    "id": "Q8",
+    "topic": "Version Control",
+    "question": "What does a Git commit represent?",
+    "options": [
+      "A backup of the entire system",
+      "A snapshot of changes",
+      "A merged branch",
+      "A deleted repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "Each commit represents a snapshot of the project at a point in time."
+  },
+  {
+    "id": "Q9",
+    "topic": "Version Control",
+    "question": "Why are branches used in Git?",
+    "options": [
+      "To delete code safely",
+      "To work on features independently",
+      "To slow down development",
+      "To avoid testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Branches allow parallel development without affecting main code."
+  },
+  {
+    "id": "Q10",
+    "topic": "Version Control",
+    "question": "What is a Pull Request?",
+    "options": [
+      "A request to delete code",
+      "A request to merge changes",
+      "A Git command",
+      "A server backup"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull Requests are used to review and merge changes."
   }
+
 ]
