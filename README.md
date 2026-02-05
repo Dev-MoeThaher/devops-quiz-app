@@ -3,6 +3,6 @@
 A simple static DevOps quiz application built for a DVCS assignment.
 
 ## Features
-- Topic-based DevOps quiz
-- Interactive user interface
-- Immediate answer feedback
+- Loads quiz questions from a JSON file
+- Supports multiple DevOps topics
+- Built using HTML, CSS, and JavaScript
