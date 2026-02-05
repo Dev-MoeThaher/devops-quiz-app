@@ -6,3 +6,4 @@ A simple static DevOps quiz application built for a DVCS assignment.
 - Loads quiz questions from a JSON file
 - Supports multiple DevOps topics
 - Built using HTML, CSS, and REACTjs
+- Built using HTML, CSS
