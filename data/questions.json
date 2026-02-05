@@ -1,12 +1,67 @@
-{
-    "questions": [
-      {
-        "topic": "Git",
-        "question": "What does Git use to identify commits?",
-        "options": ["File names", "Timestamps", "Hashes", "Branch names"],
-        "answer": "Hashes",
-        "explanation": "Git uses SHA-1 hashes to uniquely identify commits."
-      }
-    ]
+[
+  {
+    "id": "Q1",
+    "topic": "Continuous Integration",
+    "question": "What is the primary goal of Continuous Integration?",
+    "options": [
+      "Automatically deploy to production",
+      "Frequently integrate code changes into a shared repository",
+      "Eliminate the need for testing",
+      "Remove the need for branches"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Integration focuses on integrating code frequently to detect issues early."
+  },
+  {
+    "id": "Q2",
+    "topic": "Continuous Integration",
+    "question": "How often should developers commit code in a CI environment?",
+    "options": [
+      "Once per sprint",
+      "Once per month",
+      "Frequently, ideally daily",
+      "Only before releases"
+    ],
+    "answerIndex": 2,
+    "explanation": "Frequent commits help detect integration issues early."
+  },
+  {
+    "id": "Q3",
+    "topic": "Continuous Integration",
+    "question": "Which tool is commonly used for CI?",
+    "options": [
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "Ansible"
+    ],
+    "answerIndex": 0,
+    "explanation": "Jenkins is a popular Continuous Integration tool."
+  },
+  {
+    "id": "Q4",
+    "topic": "Continuous Integration",
+    "question": "What usually triggers a CI pipeline?",
+    "options": [
+      "Manual approval",
+      "Code commit or pull request",
+      "Server reboot",
+      "Production failure"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI pipelines are triggered by code changes."
+  },
+  {
+    "id": "Q5",
+    "topic": "Continuous Integration",
+    "question": "What is a common practice in CI pipelines?",
+    "options": [
+      "Skipping tests",
+      "Automated testing",
+      "Manual builds",
+      "Avoiding version control"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated testing ensures new changes do not break existing functionality."
   }
-  
+]
