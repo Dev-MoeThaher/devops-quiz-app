@@ -128,6 +128,72 @@
     ],
     "answerIndex": 1,
     "explanation": "Pull Requests are used to review and merge changes."
+  },
+  {
+    "id": "Q11",
+    "topic": "DevOps Culture",
+    "question": "What is a key principle of DevOps culture?",
+    "options": [
+      "Strict separation of teams",
+      "Collaboration between development and operations",
+      "Avoiding automation",
+      "Manual deployments"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps emphasizes collaboration across teams."
+  },
+  {
+    "id": "Q12",
+    "topic": "DevOps Culture",
+    "question": "Which value is emphasized in DevOps?",
+    "options": [
+      "Blame",
+      "Transparency",
+      "Isolation",
+      "Manual approval"
+    ],
+    "answerIndex": 1,
+    "explanation": "Transparency improves trust and collaboration."
+  },
+  {
+    "id": "Q13",
+    "topic": "DevOps Culture",
+    "question": "Why is feedback important in DevOps?",
+    "options": [
+      "To delay releases",
+      "To improve processes continuously",
+      "To avoid automation",
+      "To replace testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Feedback helps teams improve continuously."
+  },
+  {
+    "id": "Q14",
+    "topic": "DevOps Culture",
+    "question": "What does shared responsibility mean?",
+    "options": [
+      "Only ops handle failures",
+      "Only devs write code",
+      "Everyone owns quality and reliability",
+      "Management handles issues"
+    ],
+    "answerIndex": 2,
+    "explanation": "Shared responsibility is core to DevOps culture."
+  },
+  {
+    "id": "Q15",
+    "topic": "DevOps Culture",
+    "question": "Which practice supports DevOps culture?",
+    "options": [
+      "Siloed teams",
+      "Continuous improvement",
+      "Manual testing only",
+      "Delayed feedback"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous improvement aligns with DevOps principles."
   }
+
 
 ]
