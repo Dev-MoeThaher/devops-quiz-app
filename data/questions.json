@@ -193,7 +193,73 @@
     ],
     "answerIndex": 1,
     "explanation": "Continuous improvement aligns with DevOps principles."
+  },
+  {
+    "id": "Q16",
+    "topic": "Continuous Delivery",
+    "question": "What is Continuous Delivery?",
+    "options": [
+      "Manual release process",
+      "Keeping software ready for release",
+      "Automatic deployment to production",
+      "Avoiding testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Delivery ensures software can be released at any time."
+  },
+  {
+    "id": "Q17",
+    "topic": "Continuous Deployment",
+    "question": "How is Continuous Deployment different from Delivery?",
+    "options": [
+      "It requires manual approval",
+      "It automatically deploys every change",
+      "It avoids automation",
+      "It skips testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "Continuous Deployment automatically deploys changes."
+  },
+  {
+    "id": "Q18",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code?",
+    "options": [
+      "Manual server setup",
+      "Managing infrastructure using code",
+      "A monitoring tool",
+      "A testing framework"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC uses code to manage infrastructure."
+  },
+  {
+    "id": "Q19",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool supports Infrastructure as Code?",
+    "options": [
+      "Terraform",
+      "GitHub",
+      "Jenkins",
+      "Docker Hub"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is a popular IaC tool."
+  },
+  {
+    "id": "Q20",
+    "topic": "Continuous Delivery",
+    "question": "What is a benefit of Continuous Delivery?",
+    "options": [
+      "Slower releases",
+      "Higher deployment risk",
+      "Faster and reliable releases",
+      "Manual testing only"
+    ],
+    "answerIndex": 2,
+    "explanation": "Continuous Delivery improves release speed and reliability."
   }
+
 
 
 ]
